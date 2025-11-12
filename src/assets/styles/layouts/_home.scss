@@ -14,40 +14,39 @@ body {
   background-color: variables.$staf-bg;
   color: variables.$staf-corporate;
 }
-
-.staf-container {
-  max-width: 800px;
-  margin: auto;
-  padding: 2rem;
-  border-radius: 2rem;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.staf-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1.5rem;
-  max-width: 200px;
-  height: auto;
-
-  @media (min-width: variables.$mqMinWidth) {
-    max-width: none;
-  }
-}
-
-.staf-title {
-  font-family: variables.$font-family-serif;
-  font-size: 24px;
-  font-weight: 700;
+a {
+  text-decoration: none;
   color: variables.$staf-corporate;
-
-  @media (min-width: variables.$mqMinWidth) {
-    font-size: 36px;
+}
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0, .2)), url(../images/header.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 120px;
+  color: rgb(96, 226, 194);
+  
+}
+.menu-burger {
+   background-color: rgb(6, 58, 45);
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+}
+.menu {
+ 
+  ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 1.2rem;
   }
+  a {
+    color: rgb(96, 226, 194);
+    
+  }
+  
 }
 
 .staf-footer {

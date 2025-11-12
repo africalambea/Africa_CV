@@ -8,17 +8,19 @@
     <title>Africa-cv</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about"></a>Sobre mi</li>
-        <li><a href="#job"></a>Experincia</li>
-        <li><a href="#study">Formacion</a></li>
-        <li><a href="#lenguages">Idiomas</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </nav>
-    <header>
+    <div class="menu-burger">
+        <nav class="menu"> 
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">Sobre mi</a></li>
+            <li><a href="#job">Experincia</a></li>
+            <li><a href="#study">Formacion</a></li>
+            <li><a href="#lenguages">Idiomas</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    <header class="header">
       <h1>Africa Lambea Merchan</h1>
     </header>
     <main>
@@ -28,7 +30,7 @@
         <p>Trabajo bien en equipo, estoy en busca de oficio estable de larga duracion y con ambiente agradable</p>
       </section>
       <section id="job">
-        <h2>Experincia Laboral</h2>
+        <h2>Experiencia Laboral</h2>
         <article>
           <h3>Cuidadora de infantes</h3>
           <h4>Autonoma</h4>
@@ -173,7 +175,12 @@
       </section>
       <section id="contact">
         <h2>Contacto</h2>
-        
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+34645870175" target="_blank">645870175</a>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:lambeaafica@gmail.com" target="_blank">lambeaafica@gmail.com</a>
+        <i class="fa-solid fa-location-dot"></i>
+        <a href="https://maps.app.goo.gl/5CdTX1yt96GuLETYA" target="_blank">calle teide, 62, Hospitalet de llobregat, 08905</a>
       </section>
     </main>
     <include src="./views/footer.html"></include>
